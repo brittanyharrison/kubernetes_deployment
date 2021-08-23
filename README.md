@@ -8,6 +8,7 @@
 ![benefits](img/1_7-7S7GY_LMvAVlXVUt5JiQ.png)
 
 - It is used for automating deployment, scheduling and scaling of containerized applications, and supports many containerization tools such as Docker.
+
 - Benefits:
     - Self Healing
     - Load Balancing and Service Dicov 
@@ -18,8 +19,11 @@
 
 ## Kubernetes Architecture and Terminology 
 
+- When you deploy Kubernetes, you get a **cluster**.
+- A Kubernetes cluster consists of a set of worker machines, called **nodes**, that run containerized applications. Every cluster has at least one worker node.
+- The worker node(s) host the [Pods](## "A pod represents a set of running containersin your cluster") that are the components of the application workload. 
 
-## Kubernetes vs Docker
+## Kubernetes vs Docker Swarm
 
 - Docker is the main container virtualization standard used with Kubernetes.
 
